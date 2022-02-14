@@ -76,7 +76,7 @@ nav a {
 }
 
 /* Requirement 2 code here*/
-nav a:hover {
+a:hover {
   text-decoration: underline;
   text-decoration-style: wavy;
 }
@@ -89,7 +89,7 @@ a.skip{
   transition: left 1s ease-out;
   z-index: 1;
   /* Requirement 3 code here*/
-  position: relative;
+  position: absolute;
   left: -500px;
 }
 
